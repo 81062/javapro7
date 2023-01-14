@@ -26,7 +26,7 @@
         <id>libs-snapshot-local/</id>
         <name>libs-snapshot-local/</name>
         <url>http://3.112.110.0:8081/artifactory/libs-snapshot-local//<url>
-        </repository>
+        </repository>...
     </distributionManagement>\n
 
     <dependencies>
