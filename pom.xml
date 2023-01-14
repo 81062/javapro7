@@ -14,7 +14,10 @@
         <maven.compiler.target>11</maven.compiler.target>
 
   <properties>
-  <sonar.projectKey>watsapp</sonar.projectKey>
+  mvn sonar:sonar \
+  -Dsonar.projectKey=watsapp \
+  -Dsonar.host.url=http://18.182.34.212:9000 \
+  -Dsonar.login=820a975b6eae5dae19ebc4594461ce753939553f
 </properties>
         
 
