@@ -18,10 +18,11 @@
   -Dsonar.projectKey=watsapp \
   -Dsonar.host.url=http://18.182.34.212:9000 \
   -Dsonar.login=820a975b6eae5dae19ebc4594461ce753939553f
-</properties>
+   </properties>
         
 
-   
+        
+   </properties>
 
     ...<distributionManagement>...
         ...<repository>...
