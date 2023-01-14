@@ -7,17 +7,7 @@ node {
   stage ('Code Quality') {
       sh "'${mvnHome}/bin/mvn' -Dmaven.test.failure.ignore sonar:sonar"
   }
-   node {
-  stage('SCM') {
-    checkout scm
-  }
-  stage('SonarQube Analysis') {
-    def mvn = tool 'Default Maven';
-    withSonarQubeEnv() {
-      sh "${mvn}/bin/mvn sonar:sonar"
-    }
-  }
-}
+   
 
   stage ('Clean') {
       sh "'${mvnHome}/bin/mvn' -Dmaven.test.failure.ignore clean"
