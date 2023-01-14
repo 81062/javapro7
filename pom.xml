@@ -23,7 +23,7 @@
 
     
 
-    <dependencies>\n
+    <dependencies>\n\n
         <dependency>...
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
