@@ -7,7 +7,7 @@
     <packaging>war</packaging>
     <name>Sample Spring MVC Application Using AWS CodeStar</name>
 
-    <properties>
+<!--    <properties>
         <junit.platform.version>1.2.0</junit.platform.version>
         <junit.jupiter.version>5.2.0</junit.jupiter.version>
         <maven.compiler.source>11</maven.compiler.source>
@@ -24,9 +24,9 @@
 
     <distributionManagement>
         <repository>
-          <id>cloudbinary-cb-libs-snapshots-local</id>
-          <name>cloudbinary-cb-libs-snapshots-local</name>
-          <url>https://cloudbinary-191323423716.d.codeartifact.us-east-1.amazonaws.com/maven/cb-libs-snapshots-local/</url>
+          <id>libs-snapshot-local/</id>
+          <name>libs-snapshot-local/</name>
+          <url>http://3.112.110.0:8081/artifactory/libs-snapshot-local//</url>
         </repository>
       </distributionManagement>
 
