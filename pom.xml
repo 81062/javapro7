@@ -12,11 +12,11 @@
         <junit.jupiter.version>5.2.0</junit.jupiter.version>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
-<!--
-        <sonar.organization>kummari</sonar.organization>
-        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-        <sonar.projectKey>awsdevops-codescan</sonar.projectKey>
-        <sonar.login>${env.SONAR_TOKEN}</sonar.login>
+
+        mvn sonar:sonar \
+  -Dsonar.projectKey=watsapp \
+  -Dsonar.host.url=http://18.182.34.212:9000 \
+  -Dsonar.login=28c87bd43b3af9f45855c22afa9747f53539f0e9
         <!-- <sonar.login></sonar.login> -->
 
         
